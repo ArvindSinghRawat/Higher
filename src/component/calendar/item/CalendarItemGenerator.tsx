@@ -6,6 +6,12 @@ type CalendarItemComponentProps = {
   year: number;
 };
 
+/**
+ * Returns a list of components which can be used for the monthly calendar page
+ * @param month - Number of month for which calender's page is requested, starts from 1 for January
+ * @param year - Year for which page is requested
+ * @returns List of components for all of the dates of the month of an year
+ */
 export default function CalendarItemGenerator({
   month,
   year,

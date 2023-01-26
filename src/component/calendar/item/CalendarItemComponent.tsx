@@ -7,6 +7,12 @@ type CalendarItemComponentProps = {
   is_muted?: boolean;
 };
 
+/**
+ * Card which can be used as a calendar entry
+ * @param label - Label that is actually renedered on the component 
+ * @param is_muted - If true, mutes the rendered component
+ * @returns A single component which has a label and conditionally muted
+ */
 export default function CalendarItemComponent({
   label,
   is_muted = false,
