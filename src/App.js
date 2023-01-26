@@ -3,7 +3,6 @@ import { useState } from "react";
 
 import "./App.css";
 import CalendarContainer from "./component/calendar/CalendarContainer";
-import SideBarContainer from "./component/sidebar/SideBarContainer";
 
 function App() {
   const { defaultAlgorithm, darkAlgorithm } = theme;
